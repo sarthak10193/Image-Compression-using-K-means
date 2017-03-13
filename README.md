@@ -16,6 +16,17 @@ YourProgram.exe C:/myDir/input_vid.rgb  C:/myDir/output_vid.rgb  HD2SD 1
 
 
 
+# HW2 vector quantization of .raw and .rgb images using k-Means
+Here .raw considers a vector of the form [pixel1 , pixel2] where pixel1 and pixel 2 are two vertically neighboring pixels.
 
+Here .rgb considers a vector of the form [Color1, Color2] where each color is (r,g,b). Again Color 1 and color 2 are colors of two vertically adjacent pixels.
+
+How to Run ??
+> javac imageQuantizer.java
+> java imageQuantizer image2.rgb N
+or 
+> java imageQuantizer image2.raw N
+
+where N is the no of clusters in K means. 
 
 
